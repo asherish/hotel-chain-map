@@ -1,0 +1,112 @@
+{
+  "attribution": {
+    "data_license": "CC0-1.0",
+    "links": {
+      "all_the_places": "https://www.alltheplaces.xyz/",
+      "all_the_places_github": "https://github.com/alltheplaces/alltheplaces"
+    },
+    "text": "Hotel location data from All the Places (CC0). Thanks to the All the Places contributors who write and maintain the spiders."
+  },
+  "chains": {
+    "Accor": {
+      "color": "#009e73",
+      "spiders": [
+        "accor"
+      ]
+    },
+    "Best Western": {
+      "color": "#cc79a7",
+      "spiders": [
+        "best_western"
+      ]
+    },
+    "Hilton": {
+      "color": "#0072b2",
+      "spiders": [
+        "hilton"
+      ]
+    },
+    "Hyatt": {
+      "color": "#56b4e9",
+      "spiders": [
+        "hyatt"
+      ]
+    },
+    "IHG": {
+      "color": "#e69f00",
+      "spiders": [
+        "ihg_hotels"
+      ]
+    },
+    "Marriott": {
+      "color": "#d55e00",
+      "spiders": [
+        "marriott_hotels",
+        "ritz_carlton"
+      ]
+    }
+  },
+  "spiders": {
+    "accor": {
+      "chain": "Accor",
+      "feature_count": 5802,
+      "feature_count_raw": 5803,
+      "run_id": "2026-09-19-13-32-18",
+      "run_start_time": "2026-09-19T13:32:18Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/accor.geojson",
+      "stale": false
+    },
+    "best_western": {
+      "chain": "Best Western",
+      "feature_count": 201,
+      "feature_count_raw": 201,
+      "run_id": "2026-09-19-13-32-18",
+      "run_start_time": "2026-09-19T13:32:18Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/best_western.geojson",
+      "stale": false
+    },
+    "hilton": {
+      "chain": "Hilton",
+      "feature_count": 7722,
+      "feature_count_raw": 7722,
+      "run_id": "2026-08-29-13-32-18",
+      "run_start_time": "2026-08-29T13:32:18Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-08-29-13-32-18/output/hilton.geojson",
+      "stale": false
+    },
+    "hyatt": {
+      "chain": "Hyatt",
+      "no_data": true,
+      "note": "No healthy recent run of this spider; see the All the Places issue tracker.",
+      "stale": false
+    },
+    "ihg_hotels": {
+      "chain": "IHG",
+      "feature_count": 6968,
+      "feature_count_raw": 6976,
+      "run_id": "2026-09-19-13-32-18",
+      "run_start_time": "2026-09-19T13:32:18Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/ihg_hotels.geojson",
+      "stale": false
+    },
+    "marriott_hotels": {
+      "chain": "Marriott",
+      "feature_count": 8324,
+      "feature_count_raw": 8324,
+      "run_id": "2026-09-19-13-32-18",
+      "run_start_time": "2026-09-19T13:32:18Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/marriott_hotels.geojson",
+      "stale": false
+    },
+    "ritz_carlton": {
+      "chain": "Marriott",
+      "feature_count": 0,
+      "feature_count_raw": 131,
+      "ritz_duplicates_dropped": 131,
+      "run_id": "2026-09-19-13-32-18",
+      "run_start_time": "2026-09-19T13:32:18Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/ritz_carlton.geojson",
+      "stale": false
+    }
+  }
+}
