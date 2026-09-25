@@ -29,6 +29,9 @@ async function init() {
     },
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  // Attach the load listener synchronously: waiting until after the data
+  // fetches could miss a "load" event that has already fired.
+  const styleReady = new Promise((resolve) => map.on("load", resolve));
 
   const chainNames = Object.keys(meta.chains).sort();
   const loaded = await Promise.all(
@@ -57,7 +60,7 @@ async function init() {
   buildLegend(meta);
   wirePanels();
 
-  await mapLoaded();
+  await styleReady;
   for (const [name, chain] of chains) addChainLayer(name, chain);
   map.on("moveend", updateCounts);
   updateCounts();
@@ -67,13 +70,6 @@ function fetchJson(url) {
   return fetch(url).then((response) => {
     if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
     return response.json();
-  });
-}
-
-function mapLoaded() {
-  return new Promise((resolve) => {
-    if (map.loaded()) resolve();
-    else map.on("load", resolve);
   });
 }
 
