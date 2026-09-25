@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotel Chain Map</title>
+  <meta name="description" content="Weekly-updated map of major hotel chains, built from All the Places open data.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏨</text></svg>">
+  <!-- Pinned to 5.24.0: the last major with a UMD build on the CDN. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <button id="legend-toggle" type="button" aria-expanded="true" aria-controls="legend">
+    Hotel chains
+  </button>
+
+  <section id="legend" aria-label="Hotel chains legend">
+    <header>
+      <h1>Hotel Chain Map</h1>
+      <p class="counts-heading">shown in view / total</p>
+    </header>
+    <ul id="chain-list"></ul>
+    <footer>
+      <button id="about-open" type="button">About the data</button>
+    </footer>
+  </section>
+
+  <div id="about-backdrop" hidden>
+    <section id="about" role="dialog" aria-modal="true" aria-labelledby="about-title">
+      <header>
+        <h2 id="about-title">About the data</h2>
+        <button id="about-close" type="button" aria-label="Close">✕</button>
+      </header>
+      <div class="about-body">
+        <p>
+          This map shows hotel locations of a few major chains, as published by the
+          <a href="https://www.alltheplaces.xyz/" target="_blank" rel="noopener">All the Places</a>
+          open-data project (<a href="https://github.com/alltheplaces/alltheplaces" target="_blank" rel="noopener">GitHub</a>).
+          All the Places is maintained by volunteers who write and maintain the web spiders
+          that collect this data — thank you! The data is published under
+          <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0</a>.
+        </p>
+        <p>
+          Locations come from each brand's own website, via All the Places. The data
+          may be incomplete or out of date, and this map does not fix or verify it.
+          This project is not affiliated with, or endorsed by, any hotel company.
+        </p>
+        <p>
+          Found a wrong or missing hotel? Please report it upstream on the
+          <a href="https://github.com/alltheplaces/alltheplaces/issues" target="_blank" rel="noopener">All the Places issue tracker</a>,
+          mentioning the spider that produced it. The spider for each chain is listed
+          below and in <a href="data/meta.json" target="_blank" rel="noopener">meta.json</a>;
+          spider sources live under <code>locations/spiders/</code> in the All the Places repository.
+        </p>
+        <ul id="about-spiders"></ul>
+        <p>
+          Basemap tiles by <a href="https://openfreemap.org/" target="_blank" rel="noopener">OpenFreeMap</a>,
+          data from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.
+          Map issues (not data issues) can be reported at
+          <a href="https://github.com/asherish/hotel-chain-map/issues" target="_blank" rel="noopener">this project's issue tracker</a>.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
