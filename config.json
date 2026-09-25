@@ -1,0 +1,40 @@
+{
+  "spiders": {
+    "ihg_hotels": {"chain": "IHG"},
+    "marriott_hotels": {"chain": "Marriott"},
+    "ritz_carlton": {"chain": "Marriott"},
+    "hilton": {"chain": "Hilton"},
+    "accor": {"chain": "Accor"},
+    "best_western": {"chain": "Best Western"},
+    "hyatt": {"chain": "Hyatt"}
+  },
+  "chains": {
+    "IHG": {"color": "#e69f00"},
+    "Marriott": {"color": "#d55e00"},
+    "Hilton": {"color": "#0072b2"},
+    "Accor": {"color": "#009e73"},
+    "Best Western": {"color": "#cc79a7"},
+    "Hyatt": {"color": "#56b4e9"}
+  },
+  "run_selection": {
+    "candidate_runs": 8,
+    "median_window": 8,
+    "median_lookback_limit": 52,
+    "min_fraction_of_median": 0.7
+  },
+  "history_url": "https://data.alltheplaces.xyz/runs/history.json",
+  "ritz_dedup": {
+    "marriott_spider": "marriott_hotels",
+    "ritz_spider": "ritz_carlton",
+    "brand_substring": "ritz",
+    "distance_m": 500
+  },
+  "attribution": {
+    "text": "Hotel location data from All the Places (CC0). Thanks to the All the Places contributors who write and maintain the spiders.",
+    "data_license": "CC0-1.0",
+    "links": {
+      "all_the_places": "https://www.alltheplaces.xyz/",
+      "all_the_places_github": "https://github.com/alltheplaces/alltheplaces"
+    }
+  }
+}

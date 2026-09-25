@@ -1,0 +1,15 @@
+[
+  {"run_id": "2018-01-01-00-00-00", "start_time": "2018-01-01T00:00:00Z"},
+  {
+    "run_id": "2026-09-12-13-32-21",
+    "output_url": "https://example.com/runs/2026-09-12-13-32-21/output.zip",
+    "stats_url": "https://example.com/runs/2026-09-12-13-32-21/stats/_results.json",
+    "start_time": "2026-09-12T13:32:21Z"
+  },
+  {
+    "run_id": "2026-09-19-13-32-18",
+    "output_url": "https://example.com/runs/2026-09-19-13-32-18/output.zip",
+    "stats_url": "https://example.com/runs/2026-09-19-13-32-18/stats/_results.json",
+    "start_time": "2026-09-19T13:32:18Z"
+  }
+]

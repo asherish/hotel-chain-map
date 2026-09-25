@@ -1,0 +1,18 @@
+[project]
+name = "hotel-chain-map"
+version = "0.1.0"
+description = "Weekly-updated interactive map of major hotel chains, built from All the Places open data"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

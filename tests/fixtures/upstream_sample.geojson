@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "b-hotel",
+      "geometry": {"type": "Point", "coordinates": [139.7673068951, 35.6809591123]},
+      "properties": {
+        "ref": "B123",
+        "@spider": "example_hotels",
+        "name": "Example Hotel Tokyo Station",
+        "brand": "Example",
+        "addr:full": "1-9-1 Marunouchi, Chiyoda-ku, Tokyo",
+        "addr:country": "JP",
+        "website": "https://example.com/tokyo",
+        "phone": "+81-3-0000-0000",
+        "opening_hours": "Mo-Su 00:00-24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a-hotel",
+      "geometry": {"type": "Point", "coordinates": [-0.1440787, 51.5013673]},
+      "properties": {
+        "ref": "A001",
+        "@spider": "example_hotels",
+        "name": "Example Hotel London",
+        "brand": "Example",
+        "addr:housenumber": "22",
+        "addr:street": "Buckingham Gate",
+        "addr:city": "London",
+        "addr:postcode": "SW1E 6LB",
+        "addr:country": "GB"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "no-location",
+      "geometry": null,
+      "properties": {
+        "ref": "C999",
+        "@spider": "example_hotels",
+        "name": "Example Hotel Nowhere"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "polygon-hotel",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[10.0, 50.0], [10.0, 50.2], [10.2, 50.2], [10.2, 50.0]]]
+      },
+      "properties": {
+        "ref": "D444",
+        "@spider": "example_hotels",
+        "name": "Example Resort"
+      }
+    }
+  ]
+}
