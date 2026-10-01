@@ -49,20 +49,20 @@
   "spiders": {
     "accor": {
       "chain": "Accor",
-      "feature_count": 5802,
-      "feature_count_raw": 5803,
-      "run_id": "2026-09-19-13-32-18",
-      "run_start_time": "2026-09-19T13:32:18Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/accor.geojson",
+      "feature_count": 5840,
+      "feature_count_raw": 5841,
+      "run_id": "2026-09-26-13-32-25",
+      "run_start_time": "2026-09-26T13:32:25Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-26-13-32-25/output/accor.geojson",
       "stale": false
     },
     "best_western": {
       "chain": "Best Western",
       "feature_count": 201,
       "feature_count_raw": 201,
-      "run_id": "2026-09-19-13-32-18",
-      "run_start_time": "2026-09-19T13:32:18Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/best_western.geojson",
+      "run_id": "2026-09-26-13-32-25",
+      "run_start_time": "2026-09-26T13:32:25Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-26-13-32-25/output/best_western.geojson",
       "stale": false
     },
     "hilton": {
@@ -82,30 +82,30 @@
     },
     "ihg_hotels": {
       "chain": "IHG",
-      "feature_count": 6968,
-      "feature_count_raw": 6976,
-      "run_id": "2026-09-19-13-32-18",
-      "run_start_time": "2026-09-19T13:32:18Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/ihg_hotels.geojson",
+      "feature_count": 6980,
+      "feature_count_raw": 6988,
+      "run_id": "2026-09-26-13-32-25",
+      "run_start_time": "2026-09-26T13:32:25Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-26-13-32-25/output/ihg_hotels.geojson",
       "stale": false
     },
     "marriott_hotels": {
       "chain": "Marriott",
-      "feature_count": 8324,
-      "feature_count_raw": 8324,
-      "run_id": "2026-09-19-13-32-18",
-      "run_start_time": "2026-09-19T13:32:18Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/marriott_hotels.geojson",
+      "feature_count": 8326,
+      "feature_count_raw": 8326,
+      "run_id": "2026-09-26-13-32-25",
+      "run_start_time": "2026-09-26T13:32:25Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-26-13-32-25/output/marriott_hotels.geojson",
       "stale": false
     },
     "ritz_carlton": {
       "chain": "Marriott",
       "feature_count": 0,
-      "feature_count_raw": 131,
-      "ritz_duplicates_dropped": 131,
-      "run_id": "2026-09-19-13-32-18",
-      "run_start_time": "2026-09-19T13:32:18Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-19-13-32-18/output/ritz_carlton.geojson",
+      "feature_count_raw": 132,
+      "ritz_duplicates_dropped": 132,
+      "run_id": "2026-09-26-13-32-25",
+      "run_start_time": "2026-09-26T13:32:25Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-09-26-13-32-25/output/ritz_carlton.geojson",
       "stale": false
     }
   }
