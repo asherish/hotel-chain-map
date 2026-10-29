@@ -49,20 +49,20 @@
   "spiders": {
     "accor": {
       "chain": "Accor",
-      "feature_count": 5838,
-      "feature_count_raw": 5839,
-      "run_id": "2026-10-10-13-32-41",
-      "run_start_time": "2026-10-10T13:32:41Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-10-13-32-41/output/accor.geojson",
+      "feature_count": 5843,
+      "feature_count_raw": 5844,
+      "run_id": "2026-10-17-13-32-31",
+      "run_start_time": "2026-10-17T13:32:31Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-17-13-32-31/output/accor.geojson",
       "stale": false
     },
     "best_western": {
       "chain": "Best Western",
-      "feature_count": 201,
-      "feature_count_raw": 201,
-      "run_id": "2026-10-10-13-32-41",
-      "run_start_time": "2026-10-10T13:32:41Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-10-13-32-41/output/best_western.geojson",
+      "feature_count": 1998,
+      "feature_count_raw": 1998,
+      "run_id": "2026-10-17-13-32-31",
+      "run_start_time": "2026-10-17T13:32:31Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-17-13-32-31/output/best_western.geojson",
       "stale": false
     },
     "hilton": {
@@ -94,21 +94,21 @@
     },
     "marriott_hotels": {
       "chain": "Marriott",
-      "feature_count": 8957,
-      "feature_count_raw": 8958,
-      "run_id": "2026-10-10-13-32-41",
-      "run_start_time": "2026-10-10T13:32:41Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-10-13-32-41/output/marriott_hotels.geojson",
+      "feature_count": 8965,
+      "feature_count_raw": 8966,
+      "run_id": "2026-10-17-13-32-31",
+      "run_start_time": "2026-10-17T13:32:31Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-17-13-32-31/output/marriott_hotels.geojson",
       "stale": false
     },
     "ritz_carlton": {
       "chain": "Marriott",
       "feature_count": 0,
-      "feature_count_raw": 132,
-      "ritz_duplicates_dropped": 132,
-      "run_id": "2026-10-10-13-32-41",
-      "run_start_time": "2026-10-10T13:32:41Z",
-      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-10-13-32-41/output/ritz_carlton.geojson",
+      "feature_count_raw": 131,
+      "ritz_duplicates_dropped": 131,
+      "run_id": "2026-10-17-13-32-31",
+      "run_start_time": "2026-10-17T13:32:31Z",
+      "source_url": "https://alltheplaces-data.openaddresses.io/runs/2026-10-17-13-32-31/output/ritz_carlton.geojson",
       "stale": false
     }
   }
